@@ -1,0 +1,10 @@
+@import "bootstrap";
+
+#navbar {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+#blog-title {
+  text-decoration: none;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hilbert's Blog</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_pack_tag 'application', media: 'all' %>
+    <%= javascript_pack_tag 'application' %>
+  </head>
+
+  <body>
+    <div id="blog-title" class="bg-primary text-white mb-4 p-4 text-center">
+      <%= link_to root_path, class: 'text-decoration-none' do %>
+        <h1 class="display-4 text-white"> Blog do Hilbert </h1>
+      <% end %>
+
+      <p class="lead">
+        Olá, aqui você encontrará artigos sobre programação, tecnologia e carreira.
+      </p>
+    </div>
+    
+    <div class="container trix-content">
+      <%= yield %>
+    </div>
+   
+   <footer id="navbar" class="bg-primary text-white mt-5 p-4 navbar fixed-bottom">
+    <span class="navbar-text-center text-white" >
+      Copyright © Hilbert Digenio <% Date.current.year%>.
+    </span>
+   </footer>
+
+  </body>
+</html>
