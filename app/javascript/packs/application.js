@@ -10,11 +10,13 @@ import "bootstrap/dist/js/bootstrap.bundle"
 
 import "../src/application.css"
 
-import "trix"
 import "@rails/actiontext"
 
 Rails.start()
 ActiveStorage.start()
 
-require("trix")
 require("@rails/actiontext")
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

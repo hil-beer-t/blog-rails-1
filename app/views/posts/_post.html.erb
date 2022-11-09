@@ -9,7 +9,7 @@
     </div>
 
     <p>
-      <%= post.body %>
+      <%= post.body.truncate(200) %>
     </p>
     <p class="text-muted"><%= pluralize(post.comments.count, 'Comentário') %></p>
     <%= link_to "Ler Artigo", post, class: 'btn btn-primary'%>
