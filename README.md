@@ -1,5 +1,8 @@
 # Simple Blog
 
+![image](https://user-images.githubusercontent.com/52302576/200992461-601fc4bb-6d76-40d4-b98c-a2d4c6cf6e91.png)
+
+
 * Ruby version
   - `ruby 3.1.2p20 [x86_64-linux]`
 * System dependencies
