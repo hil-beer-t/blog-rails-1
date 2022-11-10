@@ -20,7 +20,7 @@ bundler
 db:create
 ``` 
 
-* Database initialization
+* Database migration
 ```bash
 db:migration
 ``` 
